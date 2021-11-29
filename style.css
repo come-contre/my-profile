@@ -1,0 +1,82 @@
+
+a {
+  text-decoration: none ;
+  font-style: italic ;
+  color: #7371FC;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #12355B;
+}
+a:active {
+  color: #9ABCA7;
+}
+p {
+  color: #202026;
+  text-align : center ;
+  text-align: justify ;
+  font-family: 'Zen Antique Soft', serif;
+}
+
+body {
+  background: #847036;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+
+h2,h3  {
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: "\2022";
+  color: #c9a3a4;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background: rgb(247, 247, 247);
+  padding: 40px ;
+  box-shadow: 0px 10px 30px rgba(233, 225, 187, 0.3) ;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+#img-trim {
+  border-radius: 5px;
+  margin-left: 224px;
+}
+.link-centsize {
+  size: 50px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
